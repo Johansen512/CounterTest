@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+html, body{
+
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-image: url(img/summer.jpg);
+    background-size: cover;
+    font-size: 60px;
+    text-shadow: 30px 10px 30px  #ebfa63;
+    background-color: rgb(253, 253, 252);
+    width: 1500px;
+    height: 800px;
+   
+}
+
+.wrapper2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-image: url(img/Xmas.png);
+    background-size: cover;
+    color: cornsilk;
+    font-size: 60px;
+    text-shadow: 30px 10px 30px  #ebfa63;
+    background-color: rgb(253, 253, 252);
+    width: 1500px;
+    height: 800px;
+   
+}
+
+tidTilbageNu {
+    
+    padding: 20px;
+    margin: 10px;
+}
+
+.linkknap{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 80%;
+    font-size: 20px;
+    
+    border: blue 5px outset;
+    box-shadow: 5px 5px;
+    background-color: rgb(58, 110, 224);
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+.linkknap a{
+    color: cornsilk;
+    text-decoration: none;
+}
