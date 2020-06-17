@@ -4,12 +4,14 @@
 }
 
 html, body{
-
+background-color: antiquewhite;
     margin: 0;
     padding: 0;
+    
 }
 
 .wrapper {
+    margin: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -18,25 +20,32 @@ html, body{
     background-size: cover;
     font-size: 60px;
     text-shadow: 30px 10px 30px  #ebfa63;
-    background-color: rgb(253, 253, 252);
+    background-color: antiquewhite;
     width: 1500px;
     height: 800px;
+    
+    border: goldenrod 30px solid;
+    border-style: groove;
    
 }
 
 .wrapper2 {
+    margin: auto;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: top;
     background-image: url(img/Xmas.png);
     background-size: cover;
-    color: cornsilk;
+    color: antiquewhite;
     font-size: 60px;
     text-shadow: 30px 10px 30px  #ebfa63;
     background-color: rgb(253, 253, 252);
     width: 1500px;
     height: 800px;
+    border: goldenrod 30px solid;
+    border-style: groove;
+    
    
 }
 
@@ -51,8 +60,8 @@ tidTilbageNu {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 50%;
-    left: 80%;
+    top: 40%;
+    left: 65%;
     font-size: 20px;
     
     border: blue 5px outset;
